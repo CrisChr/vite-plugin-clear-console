@@ -1,0 +1,39 @@
+{
+  "name": "vite-plugin-clear-console",
+  "version": "1.0.1",
+  "description": "A Vite plugin for clearing the console",
+  "packageManager": "pnpm@8.12.1",
+  "type": "module",
+  "main": "./dist/main.js",
+  "module": "./dist/main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "require": "./dist/main.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "homepage": "https://github.com/CrisChr/vite-plugin-clear-console",
+  "bugs": {
+    "url": "https://github.com/CrisChr/vite-plugin-clear-console/issues"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "clear console",
+    "vue",
+    "react"
+  ],
+  "author": "ponyred",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "vite-plugin-inspect": "^0.8.1"
+  }
+}
