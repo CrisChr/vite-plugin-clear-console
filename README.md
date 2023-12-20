@@ -2,9 +2,18 @@
 A vite plugin for clearing the consoles
 
 # How to use
+
+## Install
+```shell
+pnpm add vite-plugin-clear-consoles -D
+// or yarn add vite-plugin-clear-consoles -D
+// or npm add vite-plugin-clear-consoles -D
+```
+
+## Vite config
 ```js
 import { defineConfig } from 'vite'
-import ViteClearConsolePlugin from 'vite-plugin-clear-console'
+import ViteClearConsolePlugin from 'vite-plugin-clear-consoles'
 
 export default defineConfig({
   plugins: [
@@ -19,7 +28,7 @@ export default defineConfig({
 # Use params to clear console.warn and console.error
 ```js
 import { defineConfig } from 'vite'
-import ViteClearConsolePlugin from 'vite-plugin-clear-console'
+import ViteClearConsolePlugin from 'vite-plugin-clear-consoles'
 
 export default defineConfig({
   plugins: [
