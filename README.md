@@ -1,4 +1,7 @@
-# vite-plugin-clear-console
+[![Version](https://badgen.net/npm/v/vite-plugin-clear-consoles)]("https://www.npmjs.com/package/vite-plugin-clear-consoles")
+[![Weekly Downloads](https://badgen.net/npm/dw/vite-plugin-clear-consoles)]("https://www.npmjs.com/package/vite-plugin-clear-consoles")
+
+# Description
 A vite plugin for clearing the consoles
 
 # How to use
@@ -25,7 +28,7 @@ export default defineConfig({
 
 **This plugin automatically filter the consoles in node_modules files. That means this plugin cannot clear the consoles in node_modules.**
 
-# Use params to clear console.warn and console.error
+## Use params to clear console.warn and console.error
 ```js
 import { defineConfig } from 'vite'
 import ViteClearConsolePlugin from 'vite-plugin-clear-consoles'
