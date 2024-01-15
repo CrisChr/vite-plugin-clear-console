@@ -10,7 +10,7 @@ A vite plugin for clearing the consoles
 ```shell
 pnpm add vite-plugin-clear-consoles -D
 // or yarn add vite-plugin-clear-consoles -D
-// or npm add vite-plugin-clear-consoles -D
+// or npm install vite-plugin-clear-consoles --save-dev
 ```
 
 ## Vite config
